@@ -16,6 +16,10 @@
 		F16AAD752A324C7F00832767 /* ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AAD742A324C7F00832767 /* ViewerUITests.swift */; };
 		F16AAD772A324C7F00832767 /* ViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AAD762A324C7F00832767 /* ViewerUITestsLaunchTests.swift */; };
 		F16AAD842A324DAE00832767 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AAD832A324DAE00832767 /* SplitViewController.swift */; };
+		F16AAD942A3848D200832767 /* TVCharacterDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AAD8F2A3848D200832767 /* TVCharacterDataModel.swift */; };
+		F16AAD952A3848D200832767 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AAD902A3848D200832767 /* MasterViewController.swift */; };
+		F16AAD962A3848D200832767 /* TVCharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AAD912A3848D200832767 /* TVCharacterService.swift */; };
+		F16AAD982A3848D200832767 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16AAD932A3848D200832767 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F16AAD742A324C7F00832767 /* ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewerUITests.swift; sourceTree = "<group>"; };
 		F16AAD762A324C7F00832767 /* ViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F16AAD832A324DAE00832767 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		F16AAD8F2A3848D200832767 /* TVCharacterDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCharacterDataModel.swift; sourceTree = "<group>"; };
+		F16AAD902A3848D200832767 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		F16AAD912A3848D200832767 /* TVCharacterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCharacterService.swift; sourceTree = "<group>"; };
+		F16AAD932A3848D200832767 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 		F16AAD522A324C7E00832767 /* Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				F16AAD932A3848D200832767 /* DetailViewController.swift */,
+				F16AAD902A3848D200832767 /* MasterViewController.swift */,
+				F16AAD8F2A3848D200832767 /* TVCharacterDataModel.swift */,
+				F16AAD912A3848D200832767 /* TVCharacterService.swift */,
 				F16AAD532A324C7E00832767 /* AppDelegate.swift */,
 				F16AAD552A324C7E00832767 /* SceneDelegate.swift */,
 				F16AAD592A324C7E00832767 /* Main.storyboard */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16AAD952A3848D200832767 /* MasterViewController.swift in Sources */,
 				F16AAD542A324C7E00832767 /* AppDelegate.swift in Sources */,
 				F16AAD562A324C7E00832767 /* SceneDelegate.swift in Sources */,
+				F16AAD962A3848D200832767 /* TVCharacterService.swift in Sources */,
 				F16AAD842A324DAE00832767 /* SplitViewController.swift in Sources */,
+				F16AAD942A3848D200832767 /* TVCharacterDataModel.swift in Sources */,
+				F16AAD982A3848D200832767 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

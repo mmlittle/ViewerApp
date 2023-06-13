@@ -2,7 +2,7 @@
 //  ViewerTests.swift
 //  ViewerTests
 //
-//  Created by MLMillimot on 6/8/23.
+//  Created by Michael Little on 6/8/23.
 //
 
 import XCTest
