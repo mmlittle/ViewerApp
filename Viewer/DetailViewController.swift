@@ -30,6 +30,13 @@ class DetailViewController: UIViewController {
         nameLabel.text = components?.first
         components?.remove(at: 0)
         textView.text = components?.joined()
+        
+        Task {
+            var imageURL = "https://duckduckgo.com"
+            imageURL.append(tvCharacter?.Icon.URL ?? "")
+            let tempImage = try await TVCharactersServiceImpl().fetchImage(imageUrlString: imageURL)
+            imageView.image = tempImage
+        }
     }
 }
 

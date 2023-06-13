@@ -10,6 +10,7 @@ import UIKit
 
 protocol TVCharactersService {
     func fetchTVCharacters() async -> TVCharacters?
+    func fetchImage(imageUrlString: String) async throws -> UIImage
 }
 
 final class TVCharactersServiceImpl: TVCharactersService {
@@ -26,4 +27,19 @@ final class TVCharactersServiceImpl: TVCharactersService {
         }
     return nil
     }
+    
+    func fetchImage(imageUrlString: String) async throws -> UIImage {
+        do {
+            let urlSession = URLSession.shared
+            let url = URL(string: imageUrlString)
+            let (data, _) = try await urlSession.data(from: url!)
+            let returnImage = UIImage(data: data) ?? UIImage()
+            return returnImage
+        }
+        catch let error {
+            debugPrint(error)
+        }
+    return UIImage()
+    }
+    
 }
