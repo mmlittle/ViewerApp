@@ -1,0 +1,13 @@
+//
+//  DebugTheWireConfig.xcconfig
+//  Viewer
+//
+//  Created by Mike Little on 6/14/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+APP_NAME = The Wire Character Viewer
+BASE_BUNDLE_IDENTIFIER = com.sample.wireviewer
+
+PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_IDENTIFIER)

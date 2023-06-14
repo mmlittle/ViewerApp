@@ -59,6 +59,8 @@
 		F16AAD912A3848D200832767 /* TVCharacterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCharacterService.swift; sourceTree = "<group>"; };
 		F16AAD932A3848D200832767 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F16AADA52A39CC8F00832767 /* ServerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
+		F16AADA72A39D73400832767 /* DebugSimpsonsConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugSimpsonsConfig.xcconfig; sourceTree = "<group>"; };
+		F16AADA82A3A349200832767 /* DebugTheWireConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugTheWireConfig.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,8 @@
 		F16AAD472A324C7E00832767 = {
 			isa = PBXGroup;
 			children = (
+				F16AADA82A3A349200832767 /* DebugTheWireConfig.xcconfig */,
+				F16AADA72A39D73400832767 /* DebugSimpsonsConfig.xcconfig */,
 				F16AAD522A324C7E00832767 /* Viewer */,
 				F16AAD692A324C7F00832767 /* ViewerTests */,
 				F16AAD732A324C7F00832767 /* ViewerUITests */,
@@ -460,6 +464,7 @@
 				DEVELOPMENT_TEAM = 6DQ52UFZ53;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Viewer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -488,6 +493,7 @@
 				DEVELOPMENT_TEAM = 6DQ52UFZ53;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Viewer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -652,6 +658,7 @@
 				DEVELOPMENT_TEAM = 6DQ52UFZ53;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Viewer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -772,6 +779,7 @@
 				DEVELOPMENT_TEAM = 6DQ52UFZ53;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Viewer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
