@@ -91,8 +91,7 @@
 		F16AAD472A324C7E00832767 = {
 			isa = PBXGroup;
 			children = (
-				F16AADA82A3A349200832767 /* DebugTheWireConfig.xcconfig */,
-				F16AADA72A39D73400832767 /* DebugSimpsonsConfig.xcconfig */,
+				F16AADA92A3A353000832767 /* Configs */,
 				F16AAD522A324C7E00832767 /* Viewer */,
 				F16AAD692A324C7F00832767 /* ViewerTests */,
 				F16AAD732A324C7F00832767 /* ViewerUITests */,
@@ -113,18 +112,13 @@
 		F16AAD522A324C7E00832767 /* Viewer */ = {
 			isa = PBXGroup;
 			children = (
-				F16AAD932A3848D200832767 /* DetailViewController.swift */,
-				F16AAD902A3848D200832767 /* MasterViewController.swift */,
-				F16AAD8F2A3848D200832767 /* TVCharacterDataModel.swift */,
-				F16AAD912A3848D200832767 /* TVCharacterService.swift */,
-				F16AAD532A324C7E00832767 /* AppDelegate.swift */,
-				F16AAD552A324C7E00832767 /* SceneDelegate.swift */,
+				F16AADAC2A3A365000832767 /* AppDelegates */,
+				F16AADAB2A3A361E00832767 /* ViewControllers */,
+				F16AADAA2A3A35FB00832767 /* DataAndServices */,
 				F16AAD592A324C7E00832767 /* Main.storyboard */,
 				F16AAD5C2A324C7F00832767 /* Assets.xcassets */,
 				F16AAD5E2A324C7F00832767 /* LaunchScreen.storyboard */,
 				F16AAD612A324C7F00832767 /* Info.plist */,
-				F16AAD832A324DAE00832767 /* SplitViewController.swift */,
-				F16AADA52A39CC8F00832767 /* ServerConfig.swift */,
 			);
 			path = Viewer;
 			sourceTree = "<group>";
@@ -144,6 +138,44 @@
 				F16AAD762A324C7F00832767 /* ViewerUITestsLaunchTests.swift */,
 			);
 			path = ViewerUITests;
+			sourceTree = "<group>";
+		};
+		F16AADA92A3A353000832767 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				F16AADA82A3A349200832767 /* DebugTheWireConfig.xcconfig */,
+				F16AADA72A39D73400832767 /* DebugSimpsonsConfig.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		F16AADAA2A3A35FB00832767 /* DataAndServices */ = {
+			isa = PBXGroup;
+			children = (
+				F16AADA52A39CC8F00832767 /* ServerConfig.swift */,
+				F16AAD8F2A3848D200832767 /* TVCharacterDataModel.swift */,
+				F16AAD912A3848D200832767 /* TVCharacterService.swift */,
+			);
+			path = DataAndServices;
+			sourceTree = "<group>";
+		};
+		F16AADAB2A3A361E00832767 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F16AAD832A324DAE00832767 /* SplitViewController.swift */,
+				F16AAD932A3848D200832767 /* DetailViewController.swift */,
+				F16AAD902A3848D200832767 /* MasterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F16AADAC2A3A365000832767 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				F16AAD532A324C7E00832767 /* AppDelegate.swift */,
+				F16AAD552A324C7E00832767 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
