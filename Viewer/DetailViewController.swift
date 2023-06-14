@@ -41,8 +41,8 @@ class DetailViewController: UIViewController {
 }
 
 extension DetailViewController: TVCharacterSelectionDelegate {
-    func tvCharacterSelected(_ newCharacter: TVCharacters.Relatedtopics) {
+    func tvCharacterSelected(_ newCharacter: TVCharacters.Relatedtopics?) {
         tvCharacter = newCharacter
-  }
+    }
 }
 
