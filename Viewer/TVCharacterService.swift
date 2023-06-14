@@ -18,7 +18,7 @@ final class TVCharactersServiceImpl: TVCharactersService {
     public func fetchTVCharacters() async -> TVCharacters? {
         do {
             let urlSession = URLSession.shared
-            let url = URL(string: "http://api.duckduckgo.com/?q=the+wire+characters&format=json")
+            let url = URL(string: ServerConfig.shared.baseURL ?? "")
             let (data, _) = try await urlSession.data(from: url!)
             return try JSONDecoder().decode(TVCharacters.self, from: data)
         }
